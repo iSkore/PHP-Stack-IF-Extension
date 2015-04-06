@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.skoredev.stacks.phpStackIF</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>title</key>
+	<string>Code PHP IF</string>
+	<key>subtitle</key>
+	<string>Code in PHP IF Extension</string>
+	<key>group</key>
+	<string>Skore Tech</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<string></string>
+			<key>id</key>
+			<string>collapseB</string>
+			<key>title</key>
+			<string>Collapse Stack</string>
+			<key>trueValue</key>
+			<string>#%id% .colB{ display: none; }#%id% .headIfB{ color:#FFF;background-color: #cc7e00; }</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1==1</string>
+			<key>id</key>
+			<string>phpCodeIf</string>
+			<key>title</key>
+			<string>IF</string>
+			<key>toolTip</key>
+			<string>Put your PHP IF statement here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>id</key>
+			<string>phpOrSlice</string>
+			<key>title</key>
+			<string>PHP or Stack?</string>
+			<key>toolTip</key>
+			<string>Choose to program in the stack or drop another stack inside</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+	</array>
+	<key>icon</key>
+	<string>icon</string>
+	<key>type</key>
+	<string>stack</string>
+	<key>requiresPhp</key>
+	<true/>
+	<key>requiresPhpBuffer</key>
+	<true/>
+	<key>templateFile</key>
+	<string>template.php</string>
+	<key>cssFile</key>
+	<string>style.css</string>
+	<key>tags</key>
+	<array>
+		<string>PHP</string>
+		<string>Code</string>
+		<string>Utility</string>
+		<string>Form</string>
+		<string>if</string>
+		<string>YourHead Software</string>
+		<string>Rapid Weaver</string>
+		<string>Stacks</string>
+		<string>iSkore</string>
+		<string>iSkore Development Inc.</string>
+	</array>
+</dict>
+</plist>
